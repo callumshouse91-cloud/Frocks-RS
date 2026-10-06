@@ -1,18 +1,15 @@
 {
   "name": "Maison Elowen",
   "logo": {
-    "image": "TBC",
-    "image_file_when_fixed": "logo-maison-elowen.png",
+    "image": "logo-maison-elowen.png",
     "alt": "Maison Elowen"
   },
   "hero": {
-    "image": "TBC",
-    "image_file_when_fixed": "hero-boutique-interior.jpg",
+    "image": "hero-boutique-interior.jpg",
     "alt": "The boutique: ivory gowns on rails, soft seating and window light"
   },
   "about": {
-    "image": "TBC",
-    "image_file_when_fixed": "about-fitting-room.jpg",
+    "image": "about-fitting-room.jpg",
     "alt": "A seamstress's hands working on bridal lace"
   },
   "contact": {
@@ -30,22 +27,19 @@
   "accessories": [
     {
       "name": "Lace-Edge Veil",
-      "image": "TBC",
-      "image_file_when_fixed": "accessory-veil.jpg",
+      "image": "accessory-veil.jpg",
       "alt": "Long ivory tulle veil with a lace edge",
       "one_line": "Long ivory tulle with a delicate lace edge."
     },
     {
       "name": "Bridal Heels",
-      "image": "TBC",
-      "image_file_when_fixed": "accessory-shoes.jpg",
+      "image": "accessory-shoes.jpg",
       "alt": "Ivory satin heels with small pearl details",
       "one_line": "Ivory satin with understated pearl detailing."
     },
     {
       "name": "Pearl Hair Comb",
-      "image": "TBC",
-      "image_file_when_fixed": "accessory-hairpiece.jpg",
+      "image": "accessory-hairpiece.jpg",
       "alt": "Pearl and crystal hair comb on linen",
       "one_line": "Pearl and crystal, made to sit quietly in the hair."
     }

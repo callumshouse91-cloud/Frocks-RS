@@ -11,7 +11,7 @@ export default function Header() {
           {isPlaceholder(site.logo.image) ? (
             site.name
           ) : (
-            <Image src={`/images/${site.logo.image}`} alt={site.logo.alt} width={160} height={160} priority />
+            <Image src={`/images/${site.logo.image}`} alt={site.logo.alt} width={64} height={64} className="logo" priority />
           )}
         </Link>
         <Link href="/book" className="button button--small">

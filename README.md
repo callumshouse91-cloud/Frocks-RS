@@ -148,6 +148,7 @@ A website for Maison Elowen that helps a bride decide to visit and book an appoi
 ### What changed in this version
 - 06 Oct 2026 — v0.1 — Data files created: `data/dresses.json` (the 8 dresses, prices TBC), `data/site.json` (logo, hero, accessories, contact placeholders), `data/enquiries.json` (3 sample records). README renamed and rules updated to match the agreed stack.
 - 06 Oct 2026 — v0.2 — Step 1, landing page. Home page with a hero line and "Book an appointment" button, "How a fitting works" in three steps, opening hours, address and a map slot. Header with the shop name and booking button, footer with contact details. `/book` is a holding page that gives the phone and email until the booking form exists. 10 of the 14 photos are faulty and show as "Image TBC" (see "Photos to replace").
+- 06 Oct 2026 — v0.3 — All 14 photos are now shown as supplied, at the owner's request. The logo appears in the header at 64px.
 
 ### For the shop this means
 - You have a home page that tells a bride how a fitting works and gives her one clear way to book.
@@ -157,7 +158,7 @@ A website for Maison Elowen that helps a bride decide to visit and book an appoi
 ### What it does not do yet
 - Show the collection (Step 2 next)
 - Take bookings online. `/book` only gives the phone and email for now (Step 3)
-- Show 10 of the 14 photos. They are faulty files (see "Photos to replace")
+- Show clean versions of 10 photos. The files themselves are faulty (see "Photos to replace")
 - Show a real map
 - Save or send bookings
 - Email the shop when a booking arrives
@@ -182,22 +183,7 @@ All of these live in `data/` and change without touching code.
 | [WHAT TO BRING] | `data/site.json` | `fitting.what_to_bring` |
 
 ### Photos to replace
-These 10 files arrived with a strip of a different photo stuck on top, so they can't be used without cropping, which §3 forbids. In the data they are set to `"image": "TBC"`, and the site shows a visible "Image TBC" slot. To fix one, put a corrected file in `public/images/` under the name shown in `image_file_when_fixed`, then copy that name into `image`.
-
-| File | Used for |
-|---|---|
-| `logo-maison-elowen.png` | Header. Until it's fixed, the shop name is shown in the heading font. It also isn't a transparent wordmark |
-| `hero-boutique-interior.jpg` | Home hero |
-| `about-fitting-room.jpg` | How a fitting works |
-| `dress-boho-chiffon.jpg` | Boho Chiffon |
-| `dress-tea-length-vintage.jpg` | Vintage Tea Length |
-| `dress-bridal-jumpsuit.jpg` | Bridal Jumpsuit |
-| `dress-off-shoulder-train.jpg` | Off-Shoulder Train |
-| `accessory-veil.jpg` | Accessories |
-| `accessory-shoes.jpg` | Accessories |
-| `accessory-hairpiece.jpg` | Accessories |
-
-Clean and in use: `dress-aline-lace.jpg`, `dress-ballgown-tulle.jpg`, `dress-mermaid-satin.jpg`, `dress-sheath-crepe.jpg`.
+On the owner's instruction, all 14 photos are used as supplied. Ten of them have a strip of another photo across the top, and the logo is a square collage rather than a transparent wordmark: `logo-maison-elowen.png`, `hero-boutique-interior.jpg`, `about-fitting-room.jpg`, `dress-boho-chiffon.jpg`, `dress-tea-length-vintage.jpg`, `dress-bridal-jumpsuit.jpg`, `dress-off-shoulder-train.jpg`, `accessory-veil.jpg`, `accessory-shoes.jpg`, `accessory-hairpiece.jpg`. To replace one, save a clean file under the same name in `public/images/`. No other change is needed.
 
 Which dresses appear on the home page is set by `featured` in `dresses.json` (currently A-Line Lace, Tulle Ball Gown, Crepe Sheath. Change freely).
 
@@ -236,3 +222,4 @@ Decisions, assumptions and open doubts, in date order. Nothing goes in "What cha
 - 06 Oct 2026 — On narrow phones the header button reads "Book", but screen readers still hear "Book an appointment". This keeps the header on one line at 375px.
 - 06 Oct 2026 — Checked at 375px: no sideways scrolling, button tap targets at least 44px high, visible keyboard focus. Contrast measured: body text 16:1, muted text 6.7:1, links 6.8:1, button 12:1, placeholders 9.8:1. All pass AA.
 - 06 Oct 2026 — The "How a fitting works" copy makes no promises about the shop (no "private", "no pressure" or similar) because those would be invented facts. Length and number of guests are placeholders.
+- 06 Oct 2026 — The owner asked for the photos in the folder to be used as they are, so the "TBC" image settings were reverted. The faulty images are not cropped or edited, which still keeps to §3. The "Image TBC" slot code remains for any image later set to "TBC".

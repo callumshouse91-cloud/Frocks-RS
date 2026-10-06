@@ -54,8 +54,7 @@
   {
     "id": "boho-chiffon",
     "name": "Boho Chiffon",
-    "image": "TBC",
-    "image_file_when_fixed": "dress-boho-chiffon.jpg",
+    "image": "dress-boho-chiffon.jpg",
     "alt": "Flowing chiffon gown with embroidered floral lace and a relaxed shoulder",
     "silhouette": "Boho",
     "fabric": "Chiffon",
@@ -68,8 +67,7 @@
   {
     "id": "tea-length-vintage",
     "name": "Vintage Tea Length",
-    "image": "TBC",
-    "image_file_when_fixed": "dress-tea-length-vintage.jpg",
+    "image": "dress-tea-length-vintage.jpg",
     "alt": "1950s-style tea-length satin dress with a fitted bodice, collar and bow",
     "silhouette": "Tea-length",
     "fabric": "Satin",
@@ -82,8 +80,7 @@
   {
     "id": "bridal-jumpsuit",
     "name": "Bridal Jumpsuit",
-    "image": "TBC",
-    "image_file_when_fixed": "dress-bridal-jumpsuit.jpg",
+    "image": "dress-bridal-jumpsuit.jpg",
     "alt": "Tailored crepe bridal jumpsuit with a halter neck and wide-leg trousers",
     "silhouette": "Jumpsuit",
     "fabric": "Crepe",
@@ -96,8 +93,7 @@
   {
     "id": "off-shoulder-train",
     "name": "Off-Shoulder Train",
-    "image": "TBC",
-    "image_file_when_fixed": "dress-off-shoulder-train.jpg",
+    "image": "dress-off-shoulder-train.jpg",
     "alt": "Structured off-the-shoulder mikado ball gown with a long cathedral train",
     "silhouette": "Ball gown",
     "fabric": "Mikado",
